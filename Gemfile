@@ -13,6 +13,7 @@ gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
 
 gem 'better_errors', '~> 2.1', '>= 2.1.1'
+gem 'awesome_print', '~> 1.7'
 
 group :development, :test do
   gem 'byebug'
