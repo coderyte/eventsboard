@@ -14,6 +14,7 @@ Rails.application.routes.draw do
 
   resources :events do
     resources :comments, only: [:create]
+    resources :attendances, only: [:create]
   end
 
   # The priority is based upon order of creation: first created -> highest priority.
