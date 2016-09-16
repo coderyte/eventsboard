@@ -9,6 +9,8 @@ class User < ActiveRecord::Base
          :recoverable, :rememberable, :trackable, :validatable
 
 
+  validates :username, presence: true, length: {minimum: 6}
+
   def to_s
     "#{username}"
   end
