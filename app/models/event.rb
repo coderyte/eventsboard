@@ -15,4 +15,12 @@ class Event < ActiveRecord::Base
 
 
   mount_uploader :image, ImageUploader
+
+  def seats_left
+    seats - attendees.count
+  end
+
+  def seats_left?
+    seats == attendees.count
+  end
 end
