@@ -21,3 +21,6 @@ public/uploads
 
 #Ignore Mac ds stor
 app/assets/.DS_Store
+
+# Ignore application configuration
+/config/application.yml

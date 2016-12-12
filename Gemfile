@@ -25,6 +25,7 @@ gem 'mini_magick', '~> 4.5', '>= 4.5.1' #carrierwave dependent
 gem 'searchkick', '~> 1.3', '>= 1.3.4' #for search function
 gem 'will_paginate', '~> 3.1' #for pagination
 gem 'bootstrap-will_paginate', '~> 0.0.10' #for bootstrap-style pagination
+gem 'figaro'
 
 group :development, :test do
   gem 'byebug'
